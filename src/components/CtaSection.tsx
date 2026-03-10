@@ -1,4 +1,4 @@
-import { Phone } from "lucide-react";
+
 
 const WHATSAPP_URL = "https://wa.me/5531987132002?text=Olá,%20gostaria%20de%20agendar%20um%20atendimento.";
 
@@ -22,8 +22,8 @@ const CtaSection = () => {
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 bg-accent text-accent-foreground px-8 py-4 rounded-sm font-body font-semibold text-base hover:opacity-90 transition-opacity"> Fale pelo WhatsApp (31) 98713-2002  
 
-          <Phone className="w-5 h-5" />
-          (31) 8713-2002 — Fale pelo WhatsApp
+
+
         </a>
 
         <p className="font-heading text-xl italic text-muted-foreground pt-4">
