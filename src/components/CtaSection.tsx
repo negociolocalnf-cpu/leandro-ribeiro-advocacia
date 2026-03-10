@@ -20,8 +20,8 @@ const CtaSection = () => {
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-3 bg-accent text-accent-foreground px-8 py-4 rounded-sm font-body font-semibold text-base hover:opacity-90 transition-opacity"
-        >
+          className="inline-flex items-center gap-3 bg-accent text-accent-foreground px-8 py-4 rounded-sm font-body font-semibold text-base hover:opacity-90 transition-opacity">
+          (31) 98713-2002 — Fale pelo WhatsApp
           <Phone className="w-5 h-5" />
           (31) 8713-2002 — Fale pelo WhatsApp
         </a>
@@ -30,8 +30,8 @@ const CtaSection = () => {
           "Cada caso exige técnica, atenção e condução jurídica responsável."
         </p>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default CtaSection;
