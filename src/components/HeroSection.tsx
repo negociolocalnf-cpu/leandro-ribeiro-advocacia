@@ -22,14 +22,8 @@ const HeroSection = () => {
           <img
             src={logo}
             alt="Logo Leandro Ribeiro Advocacia"
-            className="w-28 h-28 rounded-full object-cover border-2 border-accent shadow-lg mb-4"
+            className="w-28 h-28 rounded-full object-cover border-2 border-accent shadow-lg"
           />
-          <h2 className="font-heading text-3xl md:text-4xl font-bold tracking-wider text-primary-foreground text-center">
-            LEANDRO RIBEIRO
-          </h2>
-          <span className="text-sm tracking-[0.4em] text-accent font-body font-light mt-1">
-            ADVOCACIA
-          </span>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
