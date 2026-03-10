@@ -22,8 +22,8 @@ const HeroSection = () => {
           <img
             src={logo}
             alt="Logo Leandro Ribeiro Advocacia"
-            className="w-40 h-auto object-contain"
-          />
+            className="w-40 h-auto object-contain" />
+          
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -42,8 +42,8 @@ const HeroSection = () => {
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-accent text-accent-foreground px-8 py-4 rounded-sm font-body font-semibold text-base hover:opacity-90 transition-opacity"
-            >
+              className="inline-flex items-center gap-3 bg-accent text-accent-foreground px-8 py-4 rounded-sm font-body font-semibold text-base hover:opacity-90 transition-opacity">
+              
               <Phone className="w-5 h-5" />
               Agende seu atendimento — (31) 8713-2002
             </a>
@@ -51,16 +51,16 @@ const HeroSection = () => {
 
           <div className="relative hidden lg:block">
             <div className="absolute -inset-4 bg-gradient-to-tr from-primary/20 to-accent/10 rounded-sm blur-2xl" />
-            <img
-              src={heroPhoto}
-              alt="Dr. Leandro Ribeiro - Advogado"
-              className="relative w-full max-w-md mx-auto rounded-sm shadow-2xl"
-            />
+            
+
+
+
+            
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
