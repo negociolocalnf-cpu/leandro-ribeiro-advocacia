@@ -24,7 +24,7 @@
     --muted: 213 30% 18%;
     --muted-foreground: 213 15% 55%;
 
-    --accent: 35 80% 55%;
+    --accent: 0 0% 100%;
     --accent-foreground: 213 50% 8%;
 
     --destructive: 0 84.2% 60.2%;
@@ -36,7 +36,7 @@
 
     --radius: 0.5rem;
 
-    --gold: 35 80% 55%;
+    --gold: 0 0% 100%;
     --gold-foreground: 213 50% 8%;
 
     --sidebar-background: 213 50% 8%;
