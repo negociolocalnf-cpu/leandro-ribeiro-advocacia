@@ -15,7 +15,7 @@ const HeroSection = () => {
 
       <div className="container mx-auto px-6 pt-40 pb-8 relative z-10">
         <div className="flex flex-col items-center text-center space-y-2">
-          <div className="relative max-w-7xl w-full">
+          <div className="relative w-full" style={{ maxWidth: '100rem' }}>
             <div className="absolute -inset-4 bg-gradient-to-tr from-primary/20 to-accent/10 rounded-full blur-3xl opacity-30" />
             <img
               src={logo}
