@@ -13,21 +13,19 @@ const CtaSection = () => {
           Agende seu atendimento
         </h2>
 
-        <div className="flex flex-col items-center gap-2">
-          <a
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 bg-accent text-accent-foreground px-8 py-4 rounded-sm hover:opacity-90 transition-opacity"
-            style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 600, fontSize: '1rem' }}
-          >
+        <a
+          href={WHATSAPP_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex flex-col items-center gap-1 bg-accent text-accent-foreground px-8 py-4 rounded-sm hover:opacity-90 transition-opacity"
+          style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 600, fontSize: '1rem' }}
+        >
+          <span className="flex items-center gap-3">
             <Phone className="w-5 h-5" />
             Agende seu atendimento
-          </a>
-          <span className="font-body text-muted-foreground text-base" style={{ fontFamily: 'Raleway, sans-serif' }}>
-            (31) 98713-2002
           </span>
-        </div>
+          <span className="text-sm font-normal">(31) 98713-2002</span>
+        </a>
 
         <p className="font-heading text-xl italic text-muted-foreground pt-4">
           "Cada caso exige técnica, atenção e condução jurídica responsável."
