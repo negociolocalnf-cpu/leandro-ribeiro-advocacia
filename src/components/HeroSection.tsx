@@ -15,7 +15,7 @@ const HeroSection = () => {
 
       <div className="container mx-auto px-6 pt-40 pb-8 relative z-10">
         <div className="flex flex-col items-center text-center space-y-2">
-          <div className="relative w-screen -mx-6 scale-125 translate-x-2">
+          <div className="relative w-screen -mx-6 scale-125 md:scale-75 lg:scale-[0.6] translate-x-2 md:translate-x-0">
             <div className="absolute -inset-4 bg-gradient-to-tr from-primary/20 to-accent/10 rounded-full blur-3xl opacity-30" />
             <img
               src={logo}
