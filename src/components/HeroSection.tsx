@@ -17,13 +17,11 @@ const HeroSection = () => {
         <div className="flex flex-col items-center text-center space-y-8">
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-tr from-primary/20 to-accent/10 rounded-full blur-3xl opacity-30" />
-            <div className="relative bg-white/95 rounded-xl p-4 shadow-lg overflow-hidden">
-              <img
-                src={logo}
-                alt="Logo Leandro Ribeiro Advocacia"
-                className="w-48 md:w-56 lg:w-72 max-h-40 md:max-h-48 lg:max-h-56 object-contain"
-              />
-            </div>
+            <img
+              src={logo}
+              alt="Logo Leandro Ribeiro Advocacia"
+              className="relative w-48 md:w-56 lg:w-72 max-h-40 md:max-h-48 lg:max-h-56 object-contain rounded-xl"
+            />
           </div>
 
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-primary-foreground max-w-4xl">
