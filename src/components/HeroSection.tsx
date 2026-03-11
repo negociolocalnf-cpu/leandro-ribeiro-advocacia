@@ -17,11 +17,11 @@ const HeroSection = () => {
         <div className="flex flex-col items-center text-center space-y-8">
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-tr from-primary/20 to-accent/10 rounded-full blur-3xl opacity-30" />
-            <div className="relative bg-background/80 rounded-2xl p-6 backdrop-blur-sm">
+            <div className="relative bg-white/95 rounded-2xl p-8 backdrop-blur-sm shadow-lg">
               <img
                 src={logo}
                 alt="Logo Leandro Ribeiro Advocacia"
-                className="w-56 md:w-64 lg:w-80 h-auto object-contain"
+                className="w-48 md:w-56 lg:w-72 h-auto object-contain"
               />
             </div>
           </div>
