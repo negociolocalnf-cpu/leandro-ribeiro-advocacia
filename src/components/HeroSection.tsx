@@ -5,7 +5,7 @@ const WHATSAPP_URL = "https://wa.me/5531987132002?text=Olá,%20gostaria%20de%20a
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-start pt-20 md:pt-16 md:items-center overflow-hidden">
+    <section className="relative min-h-screen flex items-start pt-16 md:pt-12 md:items-center overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-background via-secondary to-background" />
       
       <div className="absolute inset-0 opacity-5" style={{
@@ -13,8 +13,8 @@ const HeroSection = () => {
         backgroundSize: '40px 40px'
       }} />
 
-      <div className="container mx-auto px-6 pt-16 pb-16 relative z-10">
-        <div className="flex flex-col items-center text-center space-y-4">
+      <div className="container mx-auto px-6 pt-10 pb-16 relative z-10">
+        <div className="flex flex-col items-center text-center space-y-2">
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-tr from-primary/20 to-accent/10 rounded-full blur-3xl opacity-30" />
             <img
