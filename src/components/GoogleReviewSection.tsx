@@ -1,6 +1,6 @@
 import { Star } from "lucide-react";
 
-const GOOGLE_REVIEW_URL = "https://share.google/xTctURblqvPZv5QN0";
+const GOOGLE_REVIEW_URL = "https://g.page/r/CYu6hUCfJbpOEAE/review";
 
 const GoogleReviewSection = () => {
   return (
