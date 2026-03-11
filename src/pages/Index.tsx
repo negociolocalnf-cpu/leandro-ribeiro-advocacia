@@ -16,6 +16,7 @@ const Index = () => {
       <AreasSection />
       <DifferentialsSection />
       <CtaSection />
+      <GoogleReviewSection />
       <Footer />
     </div>
   );
