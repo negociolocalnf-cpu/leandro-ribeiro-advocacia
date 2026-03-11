@@ -16,11 +16,11 @@ const HeroSection = () => {
       <div className="container mx-auto px-6 pt-24 pb-16 relative z-10">
         <div className="flex flex-col items-center text-center space-y-8">
           <div className="relative">
-            <div className="absolute -inset-4 bg-gradient-to-tr from-primary/20 to-accent/10 rounded-full blur-3xl opacity-30" />
             <img
               src={logo}
               alt="Logo Leandro Ribeiro Advocacia"
-              className="relative w-72 md:w-80 lg:w-96 h-auto object-contain mix-blend-multiply"
+              className="relative w-72 md:w-80 lg:w-96 h-auto object-contain"
+              style={{ mixBlendMode: 'multiply' }}
             />
           </div>
 
