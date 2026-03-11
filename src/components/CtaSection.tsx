@@ -1,3 +1,5 @@
+import { Phone } from "lucide-react";
+
 const WHATSAPP_URL = "https://wa.me/5531987132002?text=Olá,%20gostaria%20de%20agendar%20um%20atendimento.";
 
 const CtaSection = () => {
@@ -18,10 +20,11 @@ const CtaSection = () => {
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-3 bg-accent text-accent-foreground px-8 py-4 rounded-sm font-body font-semibold text-base not-italic hover:opacity-90 transition-opacity"
-          style={{ fontStyle: 'normal' }}
+          className="inline-flex items-center gap-3 bg-accent text-accent-foreground px-8 py-4 rounded-sm hover:opacity-90 transition-opacity"
+          style={{ fontFamily: 'Raleway, sans-serif', fontWeight: 600, fontSize: '1rem', fontStyle: 'normal' }}
         >
-          Fale pelo WhatsApp <span style={{ fontFamily: 'Raleway, sans-serif' }}>(31) 98713-2002</span>
+          <Phone className="w-5 h-5" />
+          Agende seu atendimento — (31) 98713-2002
         </a>
 
         <p className="font-heading text-xl italic text-muted-foreground pt-4">
