@@ -20,7 +20,7 @@ const HeroSection = () => {
             <img
               src={logo}
               alt="Logo Leandro Ribeiro Advocacia"
-              className="relative w-48 md:w-56 lg:w-72 max-h-40 md:max-h-48 lg:max-h-56 object-contain rounded-xl"
+              className="relative w-72 md:w-80 lg:w-96 h-auto object-contain mix-blend-screen"
             />
           </div>
 
