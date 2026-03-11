@@ -1,5 +1,3 @@
-
-
 const WHATSAPP_URL = "https://wa.me/5531987132002?text=Olá,%20gostaria%20de%20agendar%20um%20atendimento.";
 
 const CtaSection = () => {
@@ -20,18 +18,18 @@ const CtaSection = () => {
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-3 bg-accent text-accent-foreground px-8 py-4 rounded-sm font-body font-semibold text-base hover:opacity-90 transition-opacity"> Fale pelo WhatsApp (31) 98713-2002  
-
-
-
+          className="inline-flex items-center gap-3 bg-accent text-accent-foreground px-8 py-4 rounded-sm font-body font-semibold text-base not-italic hover:opacity-90 transition-opacity"
+          style={{ fontStyle: 'normal' }}
+        >
+          Fale pelo WhatsApp (31) 98713-2002
         </a>
 
         <p className="font-heading text-xl italic text-muted-foreground pt-4">
           "Cada caso exige técnica, atenção e condução jurídica responsável."
         </p>
       </div>
-    </section>);
-
+    </section>
+  );
 };
 
 export default CtaSection;
