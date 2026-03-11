@@ -20,7 +20,8 @@ const HeroSection = () => {
             <img
               src={logo}
               alt="Logo Leandro Ribeiro Advocacia"
-              className="relative w-72 md:w-80 lg:w-96 h-auto object-contain"
+              className="relative w-72 md:w-80 lg:w-96 h-auto object-contain drop-shadow-[0_0_20px_rgba(255,255,255,0.3)]"
+              style={{ filter: 'brightness(1.8) contrast(1.1)' }}
             />
           </div>
 
