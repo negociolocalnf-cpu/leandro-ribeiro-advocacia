@@ -32,21 +32,19 @@ const HeroSection = () => {
             Atuação jurídica técnica e personalizada para pessoas físicas e empresas, com foco em segurança, estratégia e resultado.
           </p>
 
-          <div className="flex flex-col items-center gap-2">
-            <a
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-accent text-accent-foreground px-8 py-4 rounded-sm font-body font-semibold text-base hover:opacity-90 transition-opacity"
-              style={{ fontFamily: 'Raleway, sans-serif' }}
-            >
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex flex-col items-center gap-1 bg-accent text-accent-foreground px-8 py-4 rounded-sm font-body font-semibold text-base hover:opacity-90 transition-opacity"
+            style={{ fontFamily: 'Raleway, sans-serif' }}
+          >
+            <span className="flex items-center gap-3">
               <Phone className="w-5 h-5" />
               Agende seu atendimento
-            </a>
-            <span className="font-body text-muted-foreground text-base" style={{ fontFamily: 'Raleway, sans-serif' }}>
-              (31) 98713-2002
             </span>
-          </div>
+            <span className="text-sm font-normal">(31) 98713-2002</span>
+          </a>
         </div>
       </div>
     </section>
