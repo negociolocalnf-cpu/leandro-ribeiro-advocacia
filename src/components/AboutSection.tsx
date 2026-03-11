@@ -14,7 +14,7 @@ const AboutSection = () => {
             />
           </div>
 
-          <div className="space-y-2">
+          <div className="space-y-1">
             <div className="w-12 h-0.5 bg-accent" />
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary-foreground">
               Sobre o Advogado
