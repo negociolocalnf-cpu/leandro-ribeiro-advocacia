@@ -24,7 +24,7 @@ const CtaSection = () => {
             <Phone className="w-5 h-5" />
             Agende seu atendimento
           </span>
-          <span className="text-sm font-normal">(31) 98713-2002</span>
+          <span className="text-sm font-semibold text-accent-foreground">(31) 98713-2002</span>
         </a>
 
         <p className="font-heading text-xl italic text-muted-foreground pt-4">

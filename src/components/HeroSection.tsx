@@ -5,7 +5,7 @@ const WHATSAPP_URL = "https://wa.me/5531987132002?text=Olá,%20gostaria%20de%20a
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative min-h-screen flex items-start pt-32 md:pt-24 md:items-center overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-background via-secondary to-background" />
       
       <div className="absolute inset-0 opacity-5" style={{
@@ -43,7 +43,7 @@ const HeroSection = () => {
               <Phone className="w-5 h-5" />
               Agende seu atendimento
             </span>
-            <span className="text-sm font-normal">(31) 98713-2002</span>
+            <span className="text-sm font-semibold text-accent-foreground">(31) 98713-2002</span>
           </a>
         </div>
       </div>
