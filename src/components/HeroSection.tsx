@@ -1,5 +1,5 @@
 import { Phone } from "lucide-react";
-import logo from "@/assets/logo-final.png";
+import logo from "@/assets/logo-transparent.png";
 
 const WHATSAPP_URL = "https://wa.me/5531987132002?text=Olá,%20gostaria%20de%20agendar%20um%20atendimento.";
 
@@ -17,14 +17,11 @@ const HeroSection = () => {
         <div className="flex flex-col items-center text-center space-y-8">
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-tr from-primary/20 to-accent/10 rounded-full blur-3xl opacity-30" />
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-primary/20">
-              <img
-                src={logo}
-                alt="Logo Leandro Ribeiro Advocacia"
-                className="w-56 md:w-64 lg:w-80 h-auto object-contain"
-                style={{ maxHeight: '280px' }}
-              />
-            </div>
+            <img
+              src={logo}
+              alt="Logo Leandro Ribeiro Advocacia"
+              className="relative w-72 md:w-80 lg:w-96 h-auto object-contain"
+            />
           </div>
 
           <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-primary-foreground max-w-4xl">
