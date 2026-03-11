@@ -1,5 +1,5 @@
 import { Phone } from "lucide-react";
-import logo from "@/assets/logo-transparent.png";
+import logo from "@/assets/logo-final.png";
 
 const WHATSAPP_URL = "https://wa.me/5531987132002?text=Olá,%20gostaria%20de%20agendar%20um%20atendimento.";
 
@@ -20,7 +20,7 @@ const HeroSection = () => {
             <img
               src={logo}
               alt="Logo Leandro Ribeiro Advocacia"
-              className="relative w-72 md:w-80 lg:w-96 h-auto object-contain"
+              className="relative w-72 md:w-80 lg:w-96 h-auto object-contain rounded-2xl shadow-2xl shadow-primary/20"
             />
           </div>
 
