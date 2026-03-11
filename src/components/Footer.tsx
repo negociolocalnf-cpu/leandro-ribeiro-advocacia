@@ -11,6 +11,9 @@ const Footer = () => {
         <p className="font-body text-xs text-muted-foreground">
           © {new Date().getFullYear()} Leandro Ribeiro Advocacia. Todos os direitos reservados.
         </p>
+        <p className="font-body text-xs text-muted-foreground">
+          Desenvolvido por Cássio Domingos (22) 98160-5225
+        </p>
       </div>
     </footer>
   );
