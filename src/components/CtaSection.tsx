@@ -27,11 +27,11 @@ const CtaSection = () => {
           <span className="text-sm font-semibold text-accent-foreground">(31) 98713-2002</span>
         </a>
 
-        <p className="font-body text-sm text-muted-foreground mt-4">
+        <p className="font-body text-base font-medium text-primary-foreground/80 mt-4">
           Av. Brasília 2462 - sala 207 - Santa Luzia
         </p>
 
-        <p className="font-heading text-xl italic text-muted-foreground pt-4">
+        <p className="font-heading text-xl italic text-primary-foreground/70 pt-4">
           "Cada caso exige técnica, atenção e condução jurídica responsável."
         </p>
       </div>
