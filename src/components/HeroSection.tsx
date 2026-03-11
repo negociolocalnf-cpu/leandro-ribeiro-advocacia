@@ -5,22 +5,19 @@ const WHATSAPP_URL = "https://wa.me/5531987132002?text=Olá,%20gostaria%20de%20a
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-start pt-32 md:pt-24 md:items-center overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-background via-secondary to-background" />
-      
+    <section className="relative min-h-screen flex items-start pt-32 md:pt-24 md:items-center overflow-hidden bg-gradient-to-br from-background via-secondary to-background">
       <div className="absolute inset-0 opacity-5" style={{
         backgroundImage: 'radial-gradient(circle at 1px 1px, hsl(213 70% 45%) 1px, transparent 0)',
         backgroundSize: '40px 40px'
       }} />
 
-      <div className="container mx-auto px-6 pt-24 pb-16 relative z-10">
+      <div className="container mx-auto px-6 pt-24 pb-16 relative">
         <div className="flex flex-col items-center text-center space-y-8">
           <div className="relative">
             <img
               src={logo}
               alt="Logo Leandro Ribeiro Advocacia"
-              className="relative w-72 md:w-80 lg:w-96 h-auto object-contain"
-              style={{ mixBlendMode: 'multiply' }}
+              className="relative w-72 md:w-80 lg:w-96 h-auto object-contain mix-blend-multiply"
             />
           </div>
 
