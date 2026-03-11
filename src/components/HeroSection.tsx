@@ -15,12 +15,12 @@ const HeroSection = () => {
 
       <div className="container mx-auto px-6 pt-40 pb-8 relative z-10">
         <div className="flex flex-col items-center text-center space-y-2">
-          <div className="relative">
+          <div className="relative max-w-4xl w-full">
             <div className="absolute -inset-4 bg-gradient-to-tr from-primary/20 to-accent/10 rounded-full blur-3xl opacity-30" />
             <img
               src={logo}
               alt="Logo Leandro Ribeiro Advocacia"
-              className="relative w-full max-w-4xl h-auto object-contain"
+              className="relative w-full h-auto object-contain"
             />
           </div>
 
