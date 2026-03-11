@@ -20,7 +20,7 @@ const AboutSection = () => {
               Sobre o Advogado
             </h2>
             <p className="font-body text-muted-foreground leading-relaxed">
-              Sou advogado formado pelo Centro Universitário Newton Paiva. Atuo nas áreas de Direito Criminal, Direito Bancário e Direito Cível.
+              Atuo nas áreas de Direito Criminal, Direito Bancário e Direito Cível.
             </p>
             <p className="font-body text-muted-foreground leading-relaxed">
               Meu trabalho é pautado na análise estratégica de cada caso, no atendimento próximo ao cliente e na busca por soluções jurídicas seguras e eficazes.
