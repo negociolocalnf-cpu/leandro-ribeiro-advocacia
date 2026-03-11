@@ -42,7 +42,7 @@ const HeroSection = () => {
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-accent text-accent-foreground px-8 py-4 rounded-sm font-body font-semibold text-base hover:opacity-90 transition-opacity">Agende seu atendimento — (31) 9 8713-2002
+              className="inline-flex items-center gap-3 bg-accent text-accent-foreground px-8 py-4 rounded-sm font-body font-semibold text-base hover:opacity-90 transition-opacity">Agende seu atendimento — (31) 98713-2002
 
               <Phone className="w-5 h-5" />
               Agende seu atendimento — (31) 8713-2002
