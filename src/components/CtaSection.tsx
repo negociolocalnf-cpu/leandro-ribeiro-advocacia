@@ -21,7 +21,7 @@ const CtaSection = () => {
           className="inline-flex items-center gap-3 bg-accent text-accent-foreground px-8 py-4 rounded-sm font-body font-semibold text-base not-italic hover:opacity-90 transition-opacity"
           style={{ fontStyle: 'normal' }}
         >
-          Fale pelo WhatsApp (31) 98713-2002
+          Fale pelo WhatsApp <span style={{ fontFamily: 'Raleway, sans-serif' }}>(31) 98713-2002</span>
         </a>
 
         <p className="font-heading text-xl italic text-muted-foreground pt-4">
